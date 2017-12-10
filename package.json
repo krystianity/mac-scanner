@@ -1,11 +1,29 @@
 {
-  "name": "macscanner",
+  "name": "mac-scanner",
   "version": "1.0.0",
   "description": "scan private networks for appearance of mac adresses",
   "main": "index.js",
   "scripts": {
     "start": "sudo $(which node) ./example/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krystianity/mac-scanner.git"
+},
+"keywords": [
+  "mac",
+  "ip",
+  "range",
+  "scan",
+  "find",
+  "mac address",
+  "address",
+  "private",
+  "network",
+  "ipv4",
+  "snif",
+  "monitor"
+ ],
   "author": "Christian Fröhlingsdorf <chris@5cf.de>",
   "license": "MIT",
   "dependencies": {
@@ -15,5 +33,9 @@
     "ip": "~1.1.5",
     "net-ping": "~1.2.1",
     "node-arp": "~1.0.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/krystianity/mac-scanner/issues"
+},
+"homepage": "https://github.com/krystianity/mac-scanner#readme"
 }
