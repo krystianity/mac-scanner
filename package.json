@@ -1,0 +1,19 @@
+{
+  "name": "macscanner",
+  "version": "1.0.0",
+  "description": "scan private networks for appearance of mac adresses",
+  "main": "index.js",
+  "scripts": {
+    "start": "sudo $(which node) ./example/index.js"
+  },
+  "author": "Christian Fröhlingsdorf <chris@5cf.de>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "~2.6.0",
+    "bluebird": "~3.5.1",
+    "debug": "~3.1.0",
+    "ip": "~1.1.5",
+    "net-ping": "~1.2.1",
+    "node-arp": "~1.0.5"
+  }
+}
