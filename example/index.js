@@ -4,6 +4,7 @@ const {MacScanner} = require("./../index.js");
 
 const config = {
     debug: false,
+    initial: false, //if false omits initial entering of all available hosts in the network
     network: "192.168.1.1/24",
     concurrency: 50, //amount of ips that are pinged in parallel
     scanTimeout: 15000 //runs scan every 30 seconds (+ time it takes to execute 250 ips ~ 5 secs)

@@ -1,6 +1,6 @@
 {
   "name": "mac-scanner",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "scan private networks for appearance of mac adresses",
   "main": "index.js",
   "scripts": {
